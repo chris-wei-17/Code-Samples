@@ -1,0 +1,8 @@
+prefix=/home/jetson1/Racecar/racecar_ws/devel
+
+Name: razor_imu_m0_driver
+Description: Description of razor_imu_m0_driver
+Version: 1.0.0
+Cflags: -I/home/jetson1/Racecar/racecar_ws/src/razor_imu_m0_driver/include
+Libs: -L${prefix}/lib 
+Requires: nodelet pluginlib roscpp sensor_msgs serial

@@ -1,0 +1,12 @@
+digraph G {
+"base_link" -> "zed_camera_center"[label="Broadcaster: /zed_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1587168052.596 sec old)\nBuffer length: 0.000 sec\n"];
+"odom" -> "base_link"[label="Broadcaster: /rtabmap/rgbd_odometry\nAverage rate: 4.030 Hz\nMost recent transform: 1587168052.036 ( 0.560 sec old)\nBuffer length: 4.467 sec\n"];
+"zed_camera_center" -> "zed_left_camera_frame"[label="Broadcaster: /zed_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1587168052.596 sec old)\nBuffer length: 0.000 sec\n"];
+"zed_left_camera_frame" -> "zed_left_camera_optical_frame"[label="Broadcaster: /zed_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1587168052.596 sec old)\nBuffer length: 0.000 sec\n"];
+"zed_camera_center" -> "zed_right_camera_frame"[label="Broadcaster: /zed_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1587168052.596 sec old)\nBuffer length: 0.000 sec\n"];
+"zed_right_camera_frame" -> "zed_right_camera_optical_frame"[label="Broadcaster: /zed_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1587168052.596 sec old)\nBuffer length: 0.000 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1587168052.596"[ shape=plaintext ] ;
+ }->"odom";
+}

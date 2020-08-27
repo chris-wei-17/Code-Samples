@@ -1,0 +1,21 @@
+[submodule "racecar_ws/Racecar"]
+	path = racecar_ws/Racecar
+	url = https://github.com/mit-racecar/vesc.git
+[submodule "racecar_ws/src/vesc"]
+	path = racecar_ws/src/vesc
+	url = https://github.com/mit-racecar/vesc.git
+[submodule "racecar_ws/src/zed-ros-wrapper"]
+	path = racecar_ws/src/zed-ros-wrapper
+	url = https://github.com/stereolabs/zed-ros-wrapper.git
+[submodule "racecar_ws/src/razor_imu_m0_driver"]
+	path = racecar_ws/src/razor_imu_m0_driver
+	url = https://github.com/mitll-ros-pkg/razor_imu_m0_driver.git
+[submodule "racecar_ws/src/zed-ros-examples"]
+	path = racecar_ws/src/zed-ros-examples
+	url = https://github.com/stereolabs/zed-ros-examples
+[submodule "racecar_ws/src/pointcloud_to_laserscan"]
+	path = racecar_ws/src/pointcloud_to_laserscan
+	url = https://github.com/ros-perception/pointcloud_to_laserscan.git
+[submodule "racecar_ws/src/openni2_camera"]
+	path = racecar_ws/src/openni2_camera
+	url = https://github.com/ros-drivers/openni2_camera.git

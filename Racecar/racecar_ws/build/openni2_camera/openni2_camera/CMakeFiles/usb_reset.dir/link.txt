@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/usb_reset.dir/src/usb_reset.c.o  -o /home/jetson1/Racecar/racecar_ws/devel/lib/openni2_camera/usb_reset 

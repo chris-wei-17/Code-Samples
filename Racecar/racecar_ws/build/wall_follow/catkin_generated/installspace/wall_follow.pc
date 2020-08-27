@@ -1,0 +1,8 @@
+prefix=/home/jetson1/Racecar/racecar_ws/install
+
+Name: wall_follow
+Description: Description of wall_follow
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy sensor_msgs std_msgs geometry_msgs

@@ -1,0 +1,8 @@
+prefix=/home/jetson1/Racecar/racecar_ws/devel
+
+Name: zed_interfaces
+Description: Description of zed_interfaces
+Version: 3.1.0
+Cflags: -I/home/jetson1/Racecar/racecar_ws/devel/include -I/home/jetson1/Racecar/racecar_ws/src/zed-ros-wrapper/zed_interfaces/include
+Libs: -L${prefix}/lib 
+Requires: message_generation std_msgs geometry_msgs sensor_msgs

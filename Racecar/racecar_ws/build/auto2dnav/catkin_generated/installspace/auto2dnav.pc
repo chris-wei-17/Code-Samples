@@ -1,0 +1,8 @@
+prefix=/home/jetson1/Racecar/racecar_ws/install
+
+Name: auto2dnav
+Description: Description of auto2dnav
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

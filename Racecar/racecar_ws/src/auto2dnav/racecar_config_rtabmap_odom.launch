@@ -1,0 +1,8 @@
+<launch>
+
+  <include file="$(find racecar)/launch/teleop.launch" />
+  <include file="$(find racecar)/launch/rtabmap.launch" />
+  <include file="$(find zed_wrapper)/launch/zed_no_tf.launch" />
+  <include file="$(find pointcloud_to_laserscan)/launch/sample_node.launch" />
+  
+</launch> 

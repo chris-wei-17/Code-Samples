@@ -1,0 +1,8 @@
+prefix=/home/jetson1/Racecar/racecar_ws/devel
+
+Name: f110_Wall-Follow
+Description: Description of f110_Wall-Follow
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

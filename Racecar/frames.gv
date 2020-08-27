@@ -1,0 +1,13 @@
+digraph G {
+"base_link" -> "zed_camera_center"[label="Broadcaster: /play_1589392094808484125\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1589392237.352 sec old)\nBuffer length: 0.000 sec\n"];
+"odom" -> "base_link"[label="Broadcaster: /play_1589392094808484125\nAverage rate: 6.413 Hz\nMost recent transform: 1589391524.210 ( 713.142 sec old)\nBuffer length: 4.834 sec\n"];
+"zed_camera_center" -> "zed_left_camera_frame"[label="Broadcaster: /play_1589392094808484125\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1589392237.352 sec old)\nBuffer length: 0.000 sec\n"];
+"zed_left_camera_frame" -> "zed_left_camera_optical_frame"[label="Broadcaster: /play_1589392094808484125\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1589392237.352 sec old)\nBuffer length: 0.000 sec\n"];
+"zed_camera_center" -> "zed_right_camera_frame"[label="Broadcaster: /play_1589392094808484125\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1589392237.352 sec old)\nBuffer length: 0.000 sec\n"];
+"zed_right_camera_frame" -> "zed_right_camera_optical_frame"[label="Broadcaster: /play_1589392094808484125\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1589392237.352 sec old)\nBuffer length: 0.000 sec\n"];
+"map" -> "odom"[label="Broadcaster: /play_1589392094808484125\nAverage rate: 15.614 Hz\nMost recent transform: 1589391524.372 ( 712.980 sec old)\nBuffer length: 4.996 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1589392237.352"[ shape=plaintext ] ;
+ }->"map";
+}
