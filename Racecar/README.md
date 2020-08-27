@@ -4,7 +4,7 @@ Northeastern University Masters program - autonomous vehicle project
 This projects is an indpedent study being completed as a part of the Mechanical Engineering: Mechatronics program at Northeastern University
 
 
-<img src="https://github.com/chris-wei-17/Code-Samples/blob/master/Racecar/Images/car.jpg" height="250" width="250">
+<img src="https://github.com/chris-wei-17/Code-Samples/blob/master/Racecar/Images/car.jpg" height="500" width="500">
 
 
 The vehicle used in this project is based off of the MIT Racecar platform.  Hardware includes an Nvidia Jetson TX2, Stereolabs ZED camera, open source motor controller, and Traxxas RC car base.
