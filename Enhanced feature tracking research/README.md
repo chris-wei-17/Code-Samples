@@ -2,3 +2,8 @@ This repo contains work on the optimization of Visual-Inertial Odometry performa
 
 StereoZ.cpp is the "main" file
 
+---- Click preview to view video ----
+
+[![Watch the video](https://img.youtube.com/vi/lMiAxw_kDw4/0.jpg)](https://youtu.be/lMiAxw_kDw4)
+
+
