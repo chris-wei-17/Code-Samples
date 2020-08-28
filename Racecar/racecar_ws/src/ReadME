@@ -1,0 +1,13 @@
+The following lists the sources of borrowed ROS packages.  These packages were used either as-built or modified to fit my application
+
+ackermann_cmd_mux and racecar: Github:mit-racecar
+
+razor_imu_m0_driver: Github:mitll-ros-pkg
+
+vesc: Github:erwincoumans/vesc
+
+wall_follow: f1/10
+
+zed packages: Stereolabs
+
+remainder: ROS open source

@@ -21,5 +21,7 @@ ROS is used and additional software is written in python and c++.  The car is ca
 
 [![Watch the video](https://img.youtube.com/vi/kwg5O1kBDN8/0.jpg)](https://youtu.be/kwg5O1kBDN8)
 
+
+There is also a simulation workspace (sim_ws) which was used to experiment with 2D lidar as well.  Exploration and mapping was evaluated here as well since we did not have a lidar to install on the car
   
 Cloned repos/submodules were flattened to avoid cloning/commit issues that occured when testing the project on different computers.  Since this project is short-term, we are not worried about continuous improvement and maintaining updates with master repos.  Repo owner credit is maintained in respective readme files
