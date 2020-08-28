@@ -1,4 +1,4 @@
-Sample Descriptions
+---- Sample Descriptions ----
 
 GPS_driver.py:  This is a ROS driver to enable the use of a USB GPS receiver. 
 
