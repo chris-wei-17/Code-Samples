@@ -1,7 +1,7 @@
 # Racecar
 Northeastern University Masters program - autonomous vehicle project
 
-This projects is an indpedent study being completed as a part of the Mechanical Engineering: Mechatronics program at Northeastern University
+This projects is an indpedent study that was completed as a part of the Mechanical Engineering: Mechatronics program at Northeastern University
 
 
 <img src="https://github.com/chris-wei-17/Code-Samples/blob/master/Racecar/Images/car.jpg" height="500" width="500">
@@ -22,6 +22,6 @@ ROS is used and additional software is written in python and c++.  The car is ca
 [![Watch the video](https://img.youtube.com/vi/kwg5O1kBDN8/0.jpg)](https://youtu.be/kwg5O1kBDN8)
 
 
-There is also a simulation workspace (sim_ws) which was used to experiment with 2D lidar as well.  Exploration and mapping was evaluated here as well since we did not have a lidar to install on the car
+There is also a simulation workspace (sim_ws) which was used to experiment with 2D lidar as well.  Exploration and mapping was evaluated here as well since we did not have a lidar to install on the car. A particle filter was used as the localization method
   
 Cloned repos/submodules were flattened to avoid cloning/commit issues that occured when testing the project on different computers.  Since this project is short-term, we are not worried about continuous improvement and maintaining updates with master repos.  Repo owner credit is maintained in respective readme files
