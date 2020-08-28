@@ -13,3 +13,5 @@ Racecar:  Work from an independent study completed as a part of my MSME program.
 <img src="https://github.com/chris-wei-17/Code-Samples/blob/master/Racecar/Images/3D_map.png" height="350" width="500">
 
 -----------------------------------------------------
+
+Course work: Assorted samples of work related to sensing and perception for mobile robots
