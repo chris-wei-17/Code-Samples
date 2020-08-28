@@ -1,8 +1,18 @@
+///////////////////////////////////////////////////////////////////////////
+// THIS FILE HAS BEEN REDACTED TO REMOVE FUNCTIONALITY DUE TO THE FACT   //
+// THAT IT IS THE BASIS FOR A COLLABORATIVE WORK THAT HAS NOT YET BEEN   //
+// PUBLISHED.  THE FUNCTION REMAINS PART OF THE SOFTWARE PACKAGE         //
+// TO MAINTAIN READABILITY AND SHOW INTENT								 //
+///////////////////////////////////////////////////////////////////////////
+
 #include "optimizer.h"	
 
 // This function evaluates the difference between the estimated translation as well as the
 // the observed translation of triangulated points from t0 to t1.  If the estimate is not
 // within the error bounds, the number of features, k, used for VIO will be adjusted
+// 
+// Performance of the VIO is constantly monitored and the underlying algorithm aims to minimize
+// the compute resources while maintaining an accurate pose estimation
 
 
 void optimizePerformance(cv::Mat& points3D_t0,
